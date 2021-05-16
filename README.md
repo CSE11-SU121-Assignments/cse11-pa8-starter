@@ -73,7 +73,7 @@ for `Point`s that compares the points' distance from `(0, 0)`. If the first
 point's distance is closer to 0, it's smaller, if the distances are equal,
 the points are equal, and if the distance is further from 0, the point is
 larger.
-3. <div class='sidenote'>Remember the method <a href="https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#compareTo(java.lang.String)">compareTo</a>.</div>
+3.Remember the method [compareTo](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#compareTo(java.lang.String))
 Write a class `StringCompare` that implements `Comparator<String>` that uses the
 `compareTo` method on strings for comparison and returns the result of
 `compareTo` directly.
@@ -91,7 +91,7 @@ In this part of the assignment, you'll write several generic `List`
 methods that make use of the `Comparator` interface. Write these all in a
 class named `CompareLists` in `CompareLists.java`.
 
-<div class='sidenote'>Hint: write and test one method at a time!</div>
+Hint: write and test one method at a time!
 1. Write a generic method `minimum` that takes a `List<E>` and a
 `Comparator<E>` and returns the _smallest_ element in the list according the
 comparator, or `null` if the list is empty. Assume there are no `null`
@@ -125,13 +125,11 @@ that says `"null value in first list"` if it came from the first one, and
 
 Write at least this many tests:
 
-<div class='sidenote'>You can the documentation on how to <a
-href="https://course.ccs.neu.edu/cs2510/tester-doc.html#%28part._.Exception_testing%29">test
-exceptions here</a>. Testing exceptions is always a little weird-looking
-because we need to test for the thrown value, which acts differently than a
+You can the documentation on how to test
+[exceptions here](https://course.ccs.neu.edu/cs2510/tester-doc.html#%28part._.Exception_testing%29). Testing exceptions is always a little weird-looking because we need to test for the thrown value, which acts differently than a
 normal return value by design! You may find it useful to first write and test
-the methods <i>without</i> any exceptions, and then go back and add the
-required error cases.</div>
+the methods without any exceptions, and then go back and add the
+required error cases.
 - For each of these six methods, write a `checkExpect` test for three of the
 comparators you wrote in the first part (so you should write 18 total tests
 for this task). You should write _more_ than this to be confident that your
@@ -161,9 +159,9 @@ command line and you can see the stack trace.
 
 Take a screen shot of the stack trace.
 
-<div class='sidenote'>You can draw it in a tool like Google Slides, or by
+You can draw it in a tool like Google Slides, or by
 hand and take a picture, or any other tool you like as long as it's
-clear.</div>
+clear.
 Draw a picture of the stack and heap at the time the exception was thrown.
 You can use the style from class/the notes with boxes for method calls and
 objects/arrays/lists. Put your drawing in the document.
@@ -182,8 +180,8 @@ screenshots as a PDF to `pa8-stacktrace`.
 
 ### Tips and Tricks
 
-<div class='sidenote'>This is similar to our uses of interfaces vs.
-particular implementations of Region or Query!</div>
+This is similar to our uses of interfaces vs.
+particular implementations of Region or Query!
 
 1. All of the methods are specified to use the type `List`. `List` is an
 interface in Java that specifies a number of methods implemented by different
@@ -207,11 +205,8 @@ lengths and contents.
 
 ## Just for Fun
 
-Check out the Java documentation on <a
-href="https://docs.oracle.com/javase/specs/jls/se13/html/jls-15.html#jls-15.13">Method
-References</a> and the <a
-href="https://drive.google.com/open?id=1IrjAIZ3RwDxDMVzf3wZ9GRLj-bGFPuBA">video
-in this course on lambda expressions</a> for ways to create `Comparator`s
+Check out the Java documentation on [Method References](https://docs.oracle.com/javase/specs/jls/se13/html/jls-15.html#jls-15.13) and the [video](https://drive.google.com/open?id=1IrjAIZ3RwDxDMVzf3wZ9GRLj-bGFPuBA)
+in this course on lambda expressions for ways to create `Comparator`s
 with less code!
 
 ## FAQ

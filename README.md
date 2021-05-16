@@ -76,8 +76,7 @@ larger.
 3.Remember the method [compareTo](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#compareTo(java.lang.String))
 Write a class `StringCompare` that implements `Comparator<String>` that uses the
 `compareTo` method on strings for comparison and returns the result of
-`compareTo` directly.
-4. Write a class `StringLengthCompare` that implements `Comparator<String>` that compares `String`s
+`compareTo` directly. Write a class `StringLengthCompare` that implements `Comparator<String>` that compares `String`s
 by length, where shorter strings are “smaller”.
 4. Write a class `BooleanCompare` that implements `Comparator<Boolean>` where
 `true` is greater than `false`.

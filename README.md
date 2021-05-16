@@ -32,8 +32,7 @@ Submission checklist:
 
 ## Comparators and Lists
 
-The
-[Comparator](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/util/Comparator.html)
+The [Comparator](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/util/Comparator.html)
 interface in Java describes operations that compare two values of the same
 type. A `Comparator`'s `compare` method should return a negative number if
 the first argument is less than the second, 0 if they are equal, and a
@@ -67,6 +66,7 @@ that compares points by the following process
     coordinate is smaller, it is smaller, if greater, the first point is
     greater.
     - If the points have the same coordinates, return `0`
+
 2. Write a class `PointDistanceCompare` that implements `Comparator<Point>`
 for `Point`s that compares the points' distance from `(0, 0)`. If the first
 point's distance is closer to 0, it's smaller, if the distances are equal,

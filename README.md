@@ -73,12 +73,16 @@ for `Point`s that compares the points' distance from `(0, 0)`. If the first
 point's distance is closer to 0, it's smaller, if the distances are equal,
 the points are equal, and if the distance is further from 0, the point is
 larger.
+
 3.Remember the method [compareTo](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#compareTo(java.lang.String))
 Write a class `StringCompare` that implements `Comparator<String>` that uses the
 `compareTo` method on strings for comparison and returns the result of
-`compareTo` directly. Write a class `StringLengthCompare` that implements `Comparator<String>` that compares `String`s
+`compareTo` directly. 
+
+4. Write a class `StringLengthCompare` that implements `Comparator<String>` that compares `String`s
 by length, where shorter strings are “smaller”.
-4. Write a class `BooleanCompare` that implements `Comparator<Boolean>` where
+
+5. Write a class `BooleanCompare` that implements `Comparator<Boolean>` where
 `true` is greater than `false`.
 
 Write at least four `checkExpect` tests for each `Comparator`'s `compare`

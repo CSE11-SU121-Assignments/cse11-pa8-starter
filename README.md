@@ -57,7 +57,7 @@ All of your code will go into a single file `CompareLists.java`.
 First, write the following implementations of the `Comparator` interface. You
 can write them all in the file `CompareLists.java`.
 
-<div class='sidenote'>Hint: not all classes need constructors.</div>
+#### Hint: not all classes need constructors.
 1. Write a class `PointCompare` that implements `Comparator<Point>`
 that compares points by the following process
     - If the first point's `y` coordinate is smaller than the other point's

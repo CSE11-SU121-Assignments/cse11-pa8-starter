@@ -7,7 +7,7 @@ In this assignment you'll learn about an important built-in Java interface,
 practice with Java lists, and work on understanding how to `throw`
 exceptions.
 
-## Resubmission/Late Policy
+## Collaboration
 On this assignment, you can share **ideas for tests** with other students in
 the course and on Piazza, but you cannot share code with anyone other than
 the course staff. If you want to share information about tests, describe them
@@ -24,7 +24,8 @@ Submission checklist:
 - `[ ]` PDF submission of memory diagram for exception, submitted to the
 `pa8-stacktrace` assignment
  
-## Collaboration
+
+## Resubmission/Late Policy
 - We will not accept this PA late.
 - If you did not submit this PA or did poorly (<75%), you can fix your PA and resubmit it to the PA resubsmission assignment in Gradescope to earn a maximum of 75% the points.
 - If you scored higher than 75% on the origianl PA, we may grade the resubmission, but will not change your original grade.

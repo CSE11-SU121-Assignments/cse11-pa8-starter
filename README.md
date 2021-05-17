@@ -226,7 +226,7 @@ with less code!
 - Yes to both. Repeated elements still means the list is in order and an empty list also considered ordered.
 
 5. **Q: "I'm trying to write tests but Java won't let me do: `newArrayList.add("Hello world");`**
-- This is because within a class only field declarations are allowed. To successfully call the add method you can use a braced blocked like in: https://github.com/ucsd-cse11-s20/13-Filter-Array-Creation/blob/master/ArrayUpdateCreation.java#L34 Alternatively, look in the tips and tricks sections on how to create and fill List objects in one line!
+- This is because within a class only field declarations are allowed. To successfully call the add method you can use a braced blocked. Alternatively, look in the tips and tricks sections on how to create and fill List objects in one line!
 
 6. **Q: What type should the methods in the `XXXCompare` classes return? Some are not explicitly said in the description.**
 - You can follow the example of `class CompareDoubles` provided right before the Comparator section. 

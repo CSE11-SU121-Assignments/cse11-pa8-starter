@@ -175,7 +175,7 @@ are reported in the stack trace.
 
 You can use this document as a template:
 
-[Stack trace template doc](https://github.com/CSE11-SP21-Assignments/cse11-sp21-pa8-starter/blob/main/CSE11S20-PA8-Template.docx)
+[Stack trace template doc](https://github.com/CSE11-SU121-Assignments/cse11-pa8-starter/blob/main/CSE11S20-PA8-Template.docx)
 
 ### Submission
 

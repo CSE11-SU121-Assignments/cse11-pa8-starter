@@ -130,7 +130,7 @@ that says `"null value in first list"` if it came from the first one, and
 Write at least this many tests:
 
 You can the documentation on how to test
-[exceptions here](https://course.ccs.neu.edu/cs2510/tester-doc.html#%28part._.Exception_testing%29). Testing exceptions is always a little weird-looking because we need to test for the thrown value, which acts differently than a
+[exceptions here](https://web.archive.org/web/20191227062613/https://course.ccs.neu.edu/cs2510/tester-doc.html). Testing exceptions is always a little weird-looking because we need to test for the thrown value, which acts differently than a
 normal return value by design! You may find it useful to first write and test
 the methods without any exceptions, and then go back and add the
 required error cases.

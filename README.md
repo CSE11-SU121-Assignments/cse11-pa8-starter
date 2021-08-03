@@ -1,6 +1,6 @@
 # PA8 - Comparators, Lists, and Exceptions Practice
 
-## Due: 11:59 pm on Sunday, July 25.
+### Due: 11:59 pm on Sunday, August 29.
 
 ## Learning Goals
 In this assignment you'll learn about an important built-in Java interface,
